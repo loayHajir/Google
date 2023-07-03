@@ -1,0 +1,265 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn:link {
+    background-color: rgba(0, 0, 255, 0.733);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    border-radius: 7px;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li{
+display: inline;
+float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+}
+.google{
+    position: absolute;
+    right: 550px;
+}
+h1{
+    font-size: 100px;
+}
+#g,#g2{
+    color: rgba(0, 0, 255, 0.671);
+}
+#o,#e{
+    color: rgba(255, 0, 0, 0.815);
+}
+#o2{
+    color: rgba(255, 166, 0, 0.911);
+}
+#l{
+    color:rgba(0, 128, 0, 0.829) ;
+}
+.input{
+    position: absolute;
+    top: 250px;
+    right: 400px;
+}
+#src{
+    width: 600px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius:100px;
+    direction: rtl;
+}
+#src:hover,input[type="search"]:focus{
+    box-shadow:  2px 2px 2px #888888;
+    outline: none;
+}
+.srch{
+    position: absolute;
+    top: 5px;
+    left: 605px;
+}
+.mic{
+    position: absolute;
+    top: 4px;
+    right: 570px;
+}
+#btn2 {
+    background-color: rgba(128, 128, 128, 0.082);
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 72px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+    margin-left:310px ;
+}
+#btn2:hover,#btn:hover {
+    border-color: #888888;
+}
+#btn3{
+    background-color: rgba(128, 128, 128, 0.082);
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 72px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+    margin-left: -270px;
+}
+.lang{
+    position: absolute;
+    top: 350px;
+    left: 480px;
+}
+.lang p a{
+    text-decoration: none;
+    padding: 0 3px;
+}
+.lang p a:hover{
+    text-decoration: underline;
+}
+.end{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(128, 128, 128, 0.089)
+}
+.end p{
+direction: rtl;
+padding: 0 20px;
+}
+.right{
+    display: flex;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+.bnod{
+    padding:0 40px ;
+}
+.last a{
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.781) ;
+}
+.st {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage {
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    width: 440px;
+    border-radius: 7px;
+
+}
+
+.undergoog{
+    margin-top: -7px;
+    text-align: center;
+    font-size: 22px;
+}
+.underlogin{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.76);
+}
+#mailphone{
+    margin: 0 50px;
+    width: 340px;
+    height: 50px;
+    direction: rtl;
+    border: 1px solid  rgba(0, 0, 0, 0.151);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+#mailphone:focus {
+    outline: 2px solid blue;
+  }
+.colors{
+    text-align: center;
+}
+.forget{
+    direction: rtl;
+    margin-right: 50px;
+}
+.forget a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.822);
+}
+.notyou{
+    direction: rtl;
+    margin-right: 50px;
+    font-size: 14.7px;
+    color: rgba(0, 0, 0, 0.781);
+}
+.notyou a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.822);
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px;
+}
+button{
+    background-color:rgba(0, 0, 255, 0.822);
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    width: 65px;
+    height: 35px;
+    margin-bottom: 70px;
+}
+.create a{
+    text-decoration: none;
+    color:rgba(0, 0, 255, 0.822);
+}
+.endlog{
+    display: flex;
+}
+.rightlog{
+    direction: rtl;
+    position: absolute;
+    bottom: 60px;
+    right: 457px;
+    color: rgba(0, 0, 0, 0.151);
+}
+#langu{
+    border: 0;
+    width:180px;
+}
+.leftlog{
+    direction: rtl;
+    position: absolute;
+    bottom: 60px;
+    right: 720px;
+}
+.leftlog a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.527);
+    padding: 0 10px;
+}
+#spaninput{
+    position: absolute;
+    background-color: white;
+    top: 265px;
+    right: 510px;
+    color:  rgba(0, 0, 0, 0.781);
+}
+/* #mailphonejs{
+    margin: 0 50px;
+    width: 340px;
+    height: 50px;
+    direction: rtl;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 15px;
+} */
+
